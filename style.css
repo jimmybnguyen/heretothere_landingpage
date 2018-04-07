@@ -125,6 +125,10 @@ body {
     padding-bottom: 4rem;
   }
 
+  .footer-link {
+    font-weight: 300;
+  }
+
 
 .bg-here-dark {
     background-color: #0F1622 !important;
@@ -133,3 +137,7 @@ body {
   .nav-item a{
       color: white;
   }
+
+.here-dark-aqua {
+  color: #00AFAA;
+}
