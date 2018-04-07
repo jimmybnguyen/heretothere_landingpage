@@ -95,6 +95,7 @@ header.masthead h1 {
 }
 
 .sponsor {
+  position: relative;
   background: url("./img/here-bg.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
