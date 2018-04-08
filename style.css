@@ -119,6 +119,7 @@ header.masthead h1 {
   background-color: rgba(63,89,167,0.85);
   padding: 1rem;
   visibility: visible;
+  -webkit-transform: scale3d(1,1,1);
 }
 
 .sponsor .sponsor-item {
