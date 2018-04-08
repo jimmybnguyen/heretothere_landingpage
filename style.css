@@ -12,12 +12,6 @@ body {
     font-weight: 700;
   }
   
-a:hover {
-  color: #00AFAA;
-  text-decoration: none;
-  font-weight: 400;
-}
-
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -152,12 +146,16 @@ footer.footer {
   background-color: #0F1622 !important;
 }
 
-.nav-item a{
-    color: white;
-}
-
 .nav-link {
   color: white;
+}
+
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus {
+  color: #00AFAA;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .navbar-toggle-icon {

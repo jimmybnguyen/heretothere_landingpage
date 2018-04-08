@@ -34,3 +34,23 @@ $('a[href*="#"]')
       }
     }
   });
+
+  $(window).on("scroll", function() {
+    var currentPos = $(window).scrollTop();
+    $('.navbar-nav li a').each(function() {
+      var sectionLink = $(this);
+      // capture the height of the navbar
+      var navHeight = $('#nav-wrapper').outerHeight() + 1;
+      var section = $(sectionLink.attr('href'));
+  
+      // subtract the navbar height from the top of the section
+      if(section.position().top - navHeight  <= currentPos && sectionLink.offset().top + section.height()> currentPos) {
+        $('.nav li').removeClass('active');
+        sectionLink.parent().addClass('active');
+        console.log("added")
+      } else {
+        sectionLink.parent().removeClass('active');
+        console.log("removed")
+      }
+    });        
+  });
