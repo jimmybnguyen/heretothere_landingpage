@@ -94,28 +94,30 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.sponsor {
+.here-technologies {
   position: relative;
   background: url("./img/here-bg.jpg") no-repeat center center;
-  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
-.sponsor-box {
+.here-technologies-box {
   background-color: rgba(63,89,167,0.85);
   padding: 1rem;
 }
 
-.sponsor .sponsor-item {
+.here-technologies .here-technologies-item {
   max-width: 18rem;
   opacity: 1.0;
 }
 
-.sponsor .sponsor-item img {
+.here-technologies .here-technologies-item img {
   max-width: 12rem;
 }
 
-.sponsor a {
+.here-technologies a {
   color: #00AFAA;
 }
 
