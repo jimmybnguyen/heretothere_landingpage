@@ -97,29 +97,13 @@ header.masthead h1 {
 .sponsor {
   position: relative;
   background: url("./img/here-bg.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
-
-.sponsor .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-}
-
 .sponsor-box {
   background-color: rgba(63,89,167,0.85);
   padding: 1rem;
-  visibility: visible;
-  -webkit-transform: scale3d(1,1,1);
 }
 
 .sponsor .sponsor-item {
@@ -151,28 +135,6 @@ header.masthead h1 {
 
 team a{
   color: #000000
-}
-
-.call-to-action {
-  position: relative;
-  background-color: #343a40;
-  background: url("./img/bg-masthead.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.call-to-action .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
 }
 
 footer.footer {
