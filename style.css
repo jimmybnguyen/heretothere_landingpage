@@ -190,6 +190,14 @@ footer.footer {
     color: white;
 }
 
+.nav-link {
+  color: white;
+}
+
+.navbar-toggle-icon {
+  color: white;
+}
+
 .here-dark-aqua {
   color: #00AFAA;
 }
