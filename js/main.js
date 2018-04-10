@@ -40,20 +40,13 @@ $('a[href*="#"]')
     var currentPos = $(window).scrollTop();
     $('.navbar-nav li a').each(function() {
       var sectionLink = $(this);
-      // console.log("sectionLink")
-      // console.log(sectionLink)
-      // capture the height of the navbar
+
       var navHeight = $('#nav-wrapper').outerHeight() + 1;
-      //console.log("navHeight: " + navHeight)
+
       var section = $(sectionLink.attr('href'));
-      //console.log("section:")
-      //console.log(section)
+
       // subtract the navbar height from the top of the section
-      console.log(section)
-      console.log ("navHeight: " + navHeight)
-      console.log(section.position().top - navHeight)
-      console.log("currentPos: " + currentPos)
-      console.log("sectionLink: " + sectionLink.offset().top + section.height()> currentPos)
+
       if(section.position().top - navHeight <= currentPos && sectionLink.offset().top + section.height()> currentPos) {
         $('.nav li').removeClass('active');
         sectionLink.parent().addClass('active');
