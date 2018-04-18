@@ -150,6 +150,10 @@ footer.footer {
   color: white;
 }
 
+.nav-link:hover {
+  color: #00AFAA;
+}
+
 .navbar .navbar-nav > .active > a, 
 .navbar .navbar-nav > .active > a:hover, 
 .navbar .navbar-nav > .active > a:focus {
