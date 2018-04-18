@@ -36,7 +36,6 @@ $('a[href*="#"]')
   });
 
   $(window).on("scroll", function() {
-    console.log("****************************************")
     var currentPos = $(window).scrollTop();
     $('.navbar-nav li a').each(function() {
       var sectionLink = $(this);
