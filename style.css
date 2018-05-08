@@ -48,6 +48,11 @@ header.masthead h1 {
   }
 }
 
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
 .showcase {
   color: white;
 }
